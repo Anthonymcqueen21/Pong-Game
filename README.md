@@ -1,2 +1,2 @@
 # Pong
-This is a version the Game of Pong.
+This is a version of the Game of Pong.
