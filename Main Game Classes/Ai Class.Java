@@ -38,6 +38,3 @@ public class Computer {
         return height;
     }
 }
-        
-        
-      
