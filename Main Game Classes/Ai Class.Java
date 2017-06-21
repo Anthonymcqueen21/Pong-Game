@@ -22,7 +22,6 @@ public class Computer {
         g.setColor(Color.red);
         g.fillRect(Pong.WINDOW_WIDTH - (35 + width), y, width, height);
     }
-    
     public int getX() {
         return Pong.WINDOW_WIDTH - 6 - (35 + width);
     }
