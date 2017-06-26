@@ -6,13 +6,11 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.JPanel;
 import javax.swing.Timer;
-
 public class GamePanel extends JPanel
 implements ActionListener, KeyListener {
        Player player = new Player();
        Ball ball = new Ball();
        Computer computer = new Computer(this);
-       
        public GamePanel() {
           Timer time = new Timer(50, this);
           time.start();
@@ -33,7 +31,6 @@ implements ActionListener, KeyListener {
           player.paint(g);
           ball.paint(g);
           computer.paint(g);
-          
           g.setColor(Color.blue);
           g.drawLine(0, 30, Pong.WINDOW_WIDTH, 30);
           g.drawLine(Pong.WINDOW_WIDTH / 2, 30, Pong.WINDOW_WIDTH / 2, Pong.WINDOW_HEIGHT);
