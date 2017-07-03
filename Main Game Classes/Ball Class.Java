@@ -58,7 +58,6 @@ public class Ball {
             }
         }
     }
-
     public int getX() {
         return x;
     }
