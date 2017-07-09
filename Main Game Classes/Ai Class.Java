@@ -7,7 +7,7 @@ public class Computer {
     private int width = 10;
     private int height = 40;
     public Computer(GamePanel game) {
-        this.field = game;
+    this.field = game;
     }
     public void update() {
         if (field.getBall().getY() < this.y) {
