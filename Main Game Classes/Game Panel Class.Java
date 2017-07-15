@@ -58,7 +58,7 @@ implements ActionListener, KeyListener {
             }
          }
      }
-     public void keyReleased(KeyEvent e) {
+    public void keyReleased(KeyEvent e) {
          int keyCode = e.getKeyCode();
          if (keyCode == KeyEvent.VK_UP || keyCode == KeyEvent.VK_DOWN) {
              player.setYVelocity(0);
