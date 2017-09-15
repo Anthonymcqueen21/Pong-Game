@@ -1,8 +1,8 @@
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 public class Pong extends JFrame {
-     final static int WINDOW_WIDTH = 406;
-     final static int WINDOW_HEIGHT = 278;
+      final static int WINDOW_WIDTH = 406;
+      final static int WINDOW_HEIGHT = 278;
      public() {
          setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
          setResizable(false);
