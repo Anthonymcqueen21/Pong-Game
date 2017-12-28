@@ -5,3 +5,5 @@ Game of pong on the IDE Netbeans
 - Ai vs the player
 - Points that score
 - Ball goes back and forth and see if the player or Ai misses.
+- Simple program
+- Standard layout.
