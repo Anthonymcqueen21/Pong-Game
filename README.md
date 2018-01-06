@@ -7,3 +7,4 @@ Game of pong on the IDE Netbeans
 - Ball goes back and forth and see if the player or Ai misses.
 - Simple program
 - Standard layout.
+- Programming layout and standard issue result.
