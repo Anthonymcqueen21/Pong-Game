@@ -24,15 +24,19 @@ public class Player {
     public void setYVelocity(int speed) {
         yVelocity = speed;
     }
+    
     public int getX() {
         return 35;
     }
+    
     public int getY() {
         return y;
     }
+    
     public int getWidth() {
         return width;
     }
+    
     public int getHeight() {
         return height;
     }
