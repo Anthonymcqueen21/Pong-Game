@@ -6,8 +6,11 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.JPanel;
 import javax.swing.Timer;
+
 public class GamePanel extends JPanel
+
 implements ActionListener, KeyListener {
+
        Player player = new Player();
        Ball ball = new Ball();
        Computer computer = new Computer(this);
@@ -17,6 +20,7 @@ implements ActionListener, KeyListener {
           this.addKeyListener(this);
           this.setFocusable(true);
        }
+       
        private void update() {
           player.update();
           ball.update();
