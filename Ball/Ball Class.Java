@@ -1,7 +1,9 @@
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.JOptionPane;
+
 public class Ball {
+    
     private int x = Pong.WINDOW_WIDTH / 2;
     private int y = Pong.WINDOW_HEIGHT / 2;
     private int xVelocity = -4;
@@ -10,12 +12,15 @@ public class Ball {
     private int playerScore = 0;
     private int computerScore = 0;
     public void update() {
+        
         x = x + xVelocity;
         y = y + yVelocity;
         if (x < 0) {
+            
             xVelocity = 4;
             computerScore = computerScore + 1;
-        } else if (x + size > Pong.WINDOW_WIDTH - 6) {
+            
+        } else if (x + size > Pong.WINDOW_WIDTH - 6); {
             xVelocity = -4;
             playerScore = playerScore + 1;
         }
