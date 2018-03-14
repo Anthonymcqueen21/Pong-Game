@@ -30,7 +30,6 @@ public class Computer {
         return Pong.WINDOW_WIDTH - 6 - (35 + width);
     }
     
-    
     public int getY() {
         return y;
     }
