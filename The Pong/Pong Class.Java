@@ -1,6 +1,5 @@
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
 public class Pong extends JFrame {
       
       final static int WINDOW_WIDTH = 406;
