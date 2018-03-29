@@ -3,7 +3,6 @@ import java.awt.Graphics;
 import java.awt.JOptionPane;
 
 public class Ball {
-    
     private int x = Pong.WINDOW_WIDTH / 2;
     private int y = Pong.WINDOW_HEIGHT / 2;
     private int xVelocity = -4;
