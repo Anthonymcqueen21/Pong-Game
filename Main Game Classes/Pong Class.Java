@@ -2,7 +2,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class Pong extends JFrame {
-     
      final static int WINDOW_WIDTH = 406;
      final static int WINDOW_HEIGHT = 278;
      
@@ -14,7 +13,6 @@ public class Pong extends JFrame {
         add(new GamePanel());
         setVisible(true);
      }
-     
      public static void main(String[] args) {
       new Pong();
           
