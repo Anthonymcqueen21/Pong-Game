@@ -2,6 +2,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Computer {
+    
     private GamePanel field;
     private int y = Pong.WINDOW_HEIGHT / 2;
     private int yVelocity = 0;
