@@ -7,7 +7,7 @@ public class Player {
     private int width = 10;
     private int height = 40;
     
-    public Player() {
+public Player() {
     
     }
     
