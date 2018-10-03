@@ -8,7 +8,6 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class GamePanel extends JPanel
-
 implements ActionListener, KeyListener {
 
        Player player = new Player();
